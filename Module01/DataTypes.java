@@ -16,11 +16,11 @@ public class DataTypes{
  boolean tampan = true;
 
  System.out.print("Input Nama Depan :");
- namaDepan = cin.nextLine();
+ namaDepan = JOptionPane.showInputDialog("Input Nama Depan : ");
  System.out.print("Input Nama Tengah :");
- namaTengah = cin.nextLine();
+ namaTengah = JOptionPane.showInputDialog("Input Nama Tengah : ");
  System.out.print("Input Nama Belakang :");
- namaBelakang = cin.nextLine();
+ namaBelakang = JOptionPane.showInputDialog("Input Nama Belakang : ");
  System.out.print("Input Usia : ");
  usia = cin.nextInt();
  System.out.print("Input IPK: ");
